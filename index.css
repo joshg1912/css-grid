@@ -1,3 +1,18 @@
-h1 {
-    color: red;
+.container > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background: white;
+}
+
+.container {
+    display: grid;
+    /*determines how many vertical boxes. Here there are two columns because two values are given. Can add more values ot make more columns */
+    grid-template-columns: 100px auto;
+
+    /*Determines horizontal boxes. Here there are three rows because three values are given. Can add more. */
+    grid-template-rows: 50px 50px 100px;
+    grid-gap: 3px;
+    background: black;
 }
