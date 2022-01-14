@@ -7,12 +7,18 @@
 }
 
 .container {
-    display: grid;
-    /*determines how many vertical boxes. Here there are two columns because two values are given. Can add more values ot make more columns */
-    grid-template-columns: 100px auto;
 
-    /*Determines horizontal boxes. Here there are three rows because three values are given. Can add more. */
-    grid-template-rows: 50px 50px 100px;
-    grid-gap: 3px;
+    display: grid;
+
+    /*determines how many vertical boxes. Here there are two columns because two values are given. Can add more values to make more columns. each value determines the height of each column
+    grid-template-columns: 100px auto; */
+    grid-template: repeat(2, 50px) / repeat(3, 1fr);
+
+    /*Determines horizontal boxes. Here there are three rows because three values are given. Can add more. 
+    grid-template-rows: 50px 50px 200px; */
+    
+
+    grid-gap: 2px;
     background: black;
 }
+
