@@ -1,0 +1,24 @@
+ .wrapper {
+     display: grid;
+     grid-template: repeat(3, 100px) / repeat(3, 1fr);
+     grid-gap: 3px;
+     background: black;
+ }
+
+
+ .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+     display: flex;
+     border: 2px solid black;
+     justify-content: center;
+     align-items: center;
+     background: white;
+ }
+
+ .one {
+     background: red;
+ }
+
+ .six {
+     background: blue;
+ }
+ 
