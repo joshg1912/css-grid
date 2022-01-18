@@ -1,9 +1,15 @@
 .wrapper { 
     height: 300px;
-    width: 400px;
+    width: 410px;
     display: grid;
-    grid-template-rows: 80px 120px 97px;
-    grid-template-columns: 70px 40px 50px 183px 50px;
+    /*
+    grid works like an "L"
+    rows controls height |
+    columns controls width: ___
+
+    */
+    grid-template-rows: 50px 70px 97px;
+    grid-template-columns: 70px 40px 183px 50px 60px;
     grid-gap: 2px;
     margin: auto;
     background: black;
@@ -12,4 +18,28 @@
 div {
     border: 2px solid black;
     background: white;
+}
+
+
+.a {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.b {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background: blue;
+}
+
+.c {
+
+}
+
+.d {
+
+}
+
+.e{
+    background: blue;
 }
