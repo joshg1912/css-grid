@@ -1,13 +1,17 @@
 .wrapper { 
+    
     height: 300px;
     width: 410px;
+    
     display: grid;
+    
     /*
     grid works like an "L"
     rows controls height |
     columns controls width: ___
 
     */
+    
     grid-template-rows: 50px 70px 97px;
     grid-template-columns: 70px 40px 183px 50px 60px;
     grid-gap: 2px;
@@ -53,12 +57,8 @@ div {
     background: rgb(255,202,0);
 }
 
-.subk {
-    float:right;
-    width: 25px;
-    height: 90px;
-    background: rgb(255,202,0);
-
+.l {
+    border: 2px solid black;
 }
 
 
@@ -67,10 +67,11 @@ div {
     float:right;
     width: 85px;
     height: 69px;
+    border: 2px solid black;
 }
 
 .m {
-    width: 108px;
+    grid-column: 4 / -1;
 }
 
 
