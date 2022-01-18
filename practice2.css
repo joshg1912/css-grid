@@ -1,0 +1,15 @@
+.wrapper { 
+    height: 300px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 80px 120px 97px;
+    grid-template-columns: 70px 40px 50px 183px 50px;
+    grid-gap: 2px;
+    margin: auto;
+    background: black;
+}
+
+div {
+    border: 2px solid black;
+    background: white;
+}
