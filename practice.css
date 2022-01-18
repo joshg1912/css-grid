@@ -1,9 +1,9 @@
  .wrapper {
-     height: 458px;
-     width: 633px;
+     height: 425px;
+     width: 615px;
      margin: auto;
      display: grid;
-     grid-template-columns: 300px 86px 150px 67px;
+     grid-template-columns: 300px 86px 150px 70px;
      grid-template-rows: 70px 12px 55px 50px 79px 143px;
      background: black;
      grid-gap: 3px;
@@ -11,6 +11,7 @@
 
  div {
      background: white;
+     border: 2px solid black;
  }
 
  .a {
