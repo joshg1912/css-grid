@@ -1,44 +1,10 @@
- /*
- .wrapper {
-     display: grid;
-     grid-template: repeat(3, 100px) / repeat(3, 1fr);
-     grid-gap: 3px;
-     background: black;
- }
-
-
- .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
-     display: flex;
-     border: 2px solid black;
-     justify-content: center;
-     align-items: center;
-     background: white;
- }
-
- .one {
-     background: red;
-     grid-row: 1 / 3;
-    
- }
-
- .six {
-     background: blue;
- }
- 
- .nine {
-     grid-row: 4 / 3;
- }
- */
-
- 
-
  .wrapper {
      height: 458px;
      width: 633px;
      margin: auto;
      display: grid;
-     grid-template-columns: repeat(4, 1fr);
-     grid-template-rows: repeat(3, 1fr);
+     grid-template-columns: 300px 86px 150px 67px;
+     grid-template-rows: 70px 12px 55px 50px 79px 143px;
      background: black;
      grid-gap: 3px;
  }
