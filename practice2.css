@@ -32,14 +32,6 @@ div {
     background: blue;
 }
 
-.c {
-
-}
-
-.d {
-
-}
-
 .e{
     background: blue;
 }
@@ -54,4 +46,40 @@ div {
     grid-row: 2 / 4;
     background: red;
 }
+
+.j {
+    grid-row: 3 / 5;
+    grid-column: 1 / 3;
+    background: yellow;
+}
+
+.subk {
+    float:right;
+    width: 25px;
+    height: 90px;
+    background: yellow;
+
+}
+
+
+.subl {
+    background:blue ;
+    float:right;
+    width: 85px;
+    height: 69px;
+}
+
+.m {
+    width: 108px;
+}
+
+
+
+
+
+
+
+
+
+
 
