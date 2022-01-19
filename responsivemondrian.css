@@ -1,7 +1,7 @@
 .wrapper { 
     
-    height: 300px;
-    width: 410px;
+    height: 30%;
+    width: 30%;
     
     display: grid;
     
@@ -9,13 +9,12 @@
     grid works like an "L"
     rows controls height |
     columns controls width: ___
-
     */
 
-    grid-template-rows: 50px 70px 97px;
-    grid-template-columns: 70px 40px 183px 50px 60px;
-    grid-gap: 2px;
-    margin: auto;
+    grid-template-rows: 20% 50% 60%;
+    grid-template-columns: 50% 10% 60% 8% 10%;
+    grid-gap: 3px;
+    margin: 0 auto;
     background: black;
 }
 
@@ -59,15 +58,6 @@ div {
 }
 
 .l {
-    border: 2px solid black;
-}
-
-
-.subl {
-    background:rgb(70,55,184) ;
-    float:right;
-    width: 85px;
-    height: 69px;
     border: 2px solid black;
 }
 
